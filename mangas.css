@@ -1,0 +1,30 @@
+.main{
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.main div{
+  background-color: rgb(59, 66, 77);
+  border-radius: 4px;
+  margin-bottom: 80px;
+}
+
+.main img{
+  float:inline;
+  width:  280px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  
+}
+
+.main p{
+  font-size: 1.4rem;
+  margin-top: 4px;
+  padding: 4px;
+  line-height: 1.4;
+  color: #F3F8FF;
+  font-weight: 500;
+}
