@@ -4,7 +4,7 @@ body{
   display: grid;
   gap: 60px;
   justify-items: center;
-  
+  background-color: #363636;
 }
 
 .main{
@@ -12,6 +12,8 @@ body{
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 50px;
+  background-color: white;
+  padding: 120px;
 }
 
 .main img{
@@ -21,8 +23,122 @@ body{
 .main h1{
   display: inline;
   font-size: 3.0rem;
+  position: relative;
 }
+
+.main h1::after{
+  content: "";
+  width: 32px;
+  height: 6px;
+  position: absolute;
+  background-color: #FBA55E;
+ top: 45px;
+ left: -16px;
+}
+
+
+
+
 .main p{
-  font-size: large;
+  font-size: 1.5rem;
   line-height: 1.35;
+}
+
+.characters{
+  margin-top: -60px;
+  display: grid;
+  max-width: 1000px;
+  background-color: #282828;
+  color: #fff;
+  padding: 120px;
+}
+
+.backg{
+  margin-top: -50px;
+  font-size: 3rem;
+  position: relative;
+}
+
+.backg::after{
+  content: "";
+  width: 1000px;
+  height: 1px;
+  position: absolute;
+  background-color: #ffffff;
+ top: 65px;
+ left: 0px;}
+
+.backgtext{
+  font-size: 1.4rem;
+  line-height: 1.7;
+  margin-bottom: 100px;
+  font-weight: 700;
+}
+
+
+.clare{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  margin-bottom: 150px;
+  position: relative;
+}
+
+.clare::after{
+  content: "";
+  width: 1000px;
+  height: 0.5px;
+  position: absolute;
+  background-color: #ffffff;
+ top: 400px;
+ left: 0px;}
+
+
+.clare_txt{
+  margin-top: -60px;
+  padding: 30px;
+  text-align:end;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  position: relative;
+}
+.clare_txt h1{
+  font-size: 3rem;
+}
+
+.clare_txt h1::after{
+  content: "";
+  width: 16px;
+  height: 6px;
+  position: absolute;
+  background-color: #FBA55E;
+ top: 95px;
+ right: 120px;
+}
+
+
+.raki{
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.raki_txt{
+  margin-top: -60px;
+  padding: 30px;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  position: relative;
+}
+
+.raki_txt h1{
+  font-size: 3rem;
+}
+
+.raki_txt h1::after{
+  content: "";
+  width: 40px;
+  height: 6px;
+  position: absolute;
+  background-color: #5784ff;
+ top: 122px;
+ left: 20px;
 }

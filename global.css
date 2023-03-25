@@ -6,24 +6,25 @@ body{
   background-color: #363636;
 }
 
-.header{
-  
+.banner{
   width: 100%;
-  box-sizing: border-box;
+  box-sizing:border-box;
   text-align: center;
   padding: 80px 0px 80px 0px;
   margin-bottom: 60px;
   background-image: url(/img/misc/tema2.png);
   background-position-y: -200px;
   background-repeat: no-repeat;
-  position: relative;
+  background-position-x: center;
+  padding: 40px;
+  
 }
 
-.header h1{
+.banner h1{
   display: inline-block;
   padding: 10px 20px;
   color: #0044AC;
   font-size: 4rem;
-  margin-top: 180px;
+  margin-top: 160px;
   background-color: #36363683;
 }
