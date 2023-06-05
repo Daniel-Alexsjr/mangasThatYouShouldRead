@@ -1,0 +1,35 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+  background-color: #363636;
+  color: #282828;
+}
+
+.main{
+  width: 1000px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 50px;
+  background-color: white;
+  padding: 120px;
+}
+.main img{
+  width: 400px;
+}
+
+.main-synopsis p{
+  font-size: 1.4rem;
+}
+.extra-img{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 100px;
+}
+.extra-img img{
+  width: 400px;
+  height: 550px;
+  object-fit: cover;
+}
