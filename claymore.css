@@ -4,7 +4,7 @@ body{
   display: grid;
   gap: 60px;
   justify-items: center;
-  background-color: #363636;
+  background: radial-gradient(rgb(27, 24, 17), #363636) ;
   color: #282828;
 }
 
@@ -156,4 +156,7 @@ body{
   background-color: #5784ff;
  top: 122px;
  left: 20px;
+}
+.mt-20{
+  margin-top: 20px;
 }
